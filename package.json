@@ -1,7 +1,7 @@
 {
-  "name": "ts-npm-module",
+  "name": "pechkin",
   "version": "0.0.1",
-  "description": "A sample TypeScript npm module",
+  "description": "pechkin",
   "main": "js/index.js",
   "typings": "js/index",
   "scripts": {
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dx1alex/ts-npm-module.git"
+    "url": "git+https://github.com/dx1alex/pechkin.git"
   },
   "keywords": [
     "typescript",
@@ -17,8 +17,9 @@
   ],
   "author": "dx1alex@gmail.com",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/dx1alex/ts-npm-module.git"
-  },
-  "homepage": "https://github.com/dx1alex/ts-npm-module.git"
+  "dependencies": {
+    "async": "^1.5.2",
+    "imap": "^0.8.16",
+    "mailparser": "^0.5.3"
+  }
 }

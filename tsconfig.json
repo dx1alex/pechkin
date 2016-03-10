@@ -16,6 +16,9 @@
     ],
     "files": [
         "./index.ts",
+        "./typings/async/async.d.ts",
+        "./typings/imap/imap.d.ts",
+        "./typings/mailparser/mailparser.d.ts",
         "./typings/node/node.d.ts",
         "./typings/tsd.d.ts"
     ],
